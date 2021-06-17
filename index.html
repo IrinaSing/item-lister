@@ -45,19 +45,6 @@ const filter = document.getElementById('filter');
 //filter event
 filter.addEventListener('keyup', filterItems)
 
-
-
-
-function removeItem(e) {
-  if(e.target.classList.contains('delete')) {
-    if(confirm('Are you sure?')){
-      const li = e.target.parentElement;
-      itemList.removeChild(li);
-    }
-  }
-}
-
-
 function filterItems(e) {
   // convert text to lowercase
   const text = e.target.value.toLowerCase();
