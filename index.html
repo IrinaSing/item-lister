@@ -36,30 +36,6 @@
     </ul>
    </div>
   </div>
-  <script>
-    
-const filter = document.getElementById('filter');
-const itemList = document.getElementById('items');
-
-
-
-
-function filterItems(e) {
-  // convert text to lowercase
-  const text = e.target.value.toLowerCase();
-  // get lis (html collection, not array)
-  const items = itemList.getElementsByTagName('li');
-  // convert to array
-  Array.from(items).forEach(function(item) {
-    const itemName = item.firstChild.textContent;
-    if(itemName.toLocaleLowerCase().indexOf(text) != -1) {
-      item.style.display = 'block';
-    } else {
-      item.style.display = 'none';
-    }
-  });
-}
-  </script>
   <script type="module" src="./src/init/index.js"></script>
 </body>
 </html>
