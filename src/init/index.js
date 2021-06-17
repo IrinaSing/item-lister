@@ -1,3 +1,3 @@
-import "../listeners/form.js";
-import "../listeners/item-list.js";
-import "../listeners/filter.js";
+import "../listeners/add-item.js";
+import "../listeners/remove-item.js";
+import "../listeners/filter-items.js";
