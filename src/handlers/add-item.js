@@ -1,4 +1,4 @@
-function addItem(e) {
+export const addItem = (e) => {
     e.preventDefault();
   
     // get input value
