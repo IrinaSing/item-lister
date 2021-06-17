@@ -1,3 +1,5 @@
+const itemList = document.getElementById('items');
+
 export const addItem = (e) => {
     e.preventDefault();
   
