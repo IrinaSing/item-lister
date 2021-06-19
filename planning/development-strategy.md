@@ -89,14 +89,10 @@
 
 ### HTML
 
-- [ ] <_input type="checkbox" id="done" /_>
+- [ ] <_div_> inside <_li_>
+- [ ] <_input type="checkbox" id="done" /_> inside <_div_>
+- [ ] <_label /_> inside <_div_>
 
-### Listener
+### Handlers
 
-- [ ] check-items.js file in listeners folder;
-- [ ] event to listen - "change", element to attach - input form with class "done", function to handle - checkItems.
-
-### Handler
-
-- [ ] check-items.js file in handlers folder;
-- [ ] takes DOM element and switch .checked property between false and true.
+- [ ] Add-item - change the structure of the created element
