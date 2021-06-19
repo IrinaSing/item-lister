@@ -84,3 +84,19 @@
 - [x] converts text content of lis to lowercase;
 - [x] checks each <_li_> for content of the input.
 - [x] displays result (if found) or not.
+
+# Check marks
+
+### HTML
+
+- [ ] <_input type="checkbox" id="done" /_>
+
+### Listener
+
+- [ ] check-items.js file in listeners folder;
+- [ ] event to listen - "change", element to attach - input form with class "done", function to handle - checkItems.
+
+### Handler
+
+- [ ] check-items.js file in handlers folder;
+- [ ] takes DOM element and switch .checked property between false and true.
