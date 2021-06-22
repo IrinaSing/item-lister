@@ -17,6 +17,16 @@
 
 -->
 
+# Data
+
+```js
+ {
+   items : [
+     { text : 'Item 1', isChecked : true } 
+   ];
+ }
+```
+
 # Add words into the list
 
 ## List
@@ -96,3 +106,5 @@
 ### Handlers
 
 - [ ] Add-item - change the structure of the created element
+- [ ] Remove-item - restructurize
+- [ ] Filtering - make it work
