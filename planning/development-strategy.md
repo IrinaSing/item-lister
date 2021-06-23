@@ -25,6 +25,8 @@
      { text : 'Item 1', isChecked : true } 
    ];
  }
+
+  query: ''
 ```
 
 # Add words into the list
