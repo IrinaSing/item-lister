@@ -9,7 +9,8 @@
  * @returns {Element} <li> item with text, checkbox and button.
  */
 
-export const listItem = (textContent = "") => {
+// or text?
+export const listItem = (className) => {
   const newItem = document.getElementById("item").value;
 
   // create new li element

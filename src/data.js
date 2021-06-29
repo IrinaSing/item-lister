@@ -1,4 +1,8 @@
+import { schema } from "./schema.js";
+import { validate } from "../../lib/validate.js";
+
 export const itemData = {
-  text: "Item 1",
-  isChecked: true,
+  items: [{ text: "Item 1", isChecked: true }],
 };
+
+validate(schema, itemData);
