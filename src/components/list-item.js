@@ -25,18 +25,18 @@ export const listItem = (item) => {
   const checkbox = document.createElement("input");
   checkbox.className = "checkbox";
   checkbox.setAttribute("type", "checkbox");
-
-  // create div element + class
-  const div = document.createElement("div");
-  div.className = "form-check-div";
-
-  // add text node with input value
-  div.appendChild(document.createTextNode(newItem.text));
-
   // append input to div
   itemDiv.appendChild(checkbox);
+  // create div element + class
+  // const textDiv = document.createElement("div");
+
+  // add text node with input value, append to item div
+  const name = document.createTextNode(newItem.text);
+  itemDiv.appendChild(name);
+  // textDiv.appendChild(document.createTextNode(newItem.text));
+
   // append div to div
-  itemDiv.appendChild(div);
+  // itemDiv.appendChild(textDiv);
 
   // create delete button element + class + text node
   const deleteBtn = document.createElement("button");
