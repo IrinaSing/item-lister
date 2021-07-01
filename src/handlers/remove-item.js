@@ -1,5 +1,7 @@
 /* eslint-disable no-restricted-globals */
-const itemList = document.getElementById("items");
+// import { list } from "../components/list.js";
+
+const itemList = document.getElementsByTagName("ul");
 
 export const removeItem = (e) => {
   if (e.target.classList.contains("delete")) {
