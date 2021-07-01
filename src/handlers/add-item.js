@@ -16,7 +16,8 @@ export const addItem = (e) => {
   */
 
   // read the user input and update state
-  const itemInput = document.getElementById("item").value; // .value??
+  const itemInput = document.getElementById("item").value;
+
   const itemToData = { text: itemInput, isChecked: false, id: Date.now() };
   state.items.push(itemToData);
 
@@ -27,7 +28,7 @@ export const addItem = (e) => {
 
   // render a new list of list components
   const newListEl = list(state.items);
-  console.log(state.items);
+  // console.log(state.items);
   // append component to list component
   listContainer.appendChild(newListEl);
 };
