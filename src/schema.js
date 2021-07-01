@@ -1,4 +1,5 @@
-export const schema = {
+/* eslint-disable no-unused-vars */
+const schema = {
   title: "item data",
   description: "item content and status",
   type: "object",

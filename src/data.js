@@ -1,8 +1,7 @@
-import { schema } from "./schema.js";
-import { validate } from "../../lib/validate.js";
+/* eslint-disable no-console */
+/* eslint-disable import/no-unresolved */
 
-export const itemData = {
-  items: [{ text: "Item 1", isChecked: true }],
+export const state = {
+  items: [{ text: "Item 1", isChecked: false, id: Date.now() }],
 };
-
-validate(schema, itemData);
+console.log("initial state:", { ...state });

@@ -1,21 +1,20 @@
-import { createListItem } from "./list-item.js";
+import { listItem } from "./list-item.js";
 
 /**
  * renders a list with all added elements
  *
- * @param {array} array - text of all the items
+ * @param {Array} array - text of all the items
  * @returns {Element} <ul> new list
  */
 
 export const list = (array) => {
-  const newList = document.createElement("ul");
-  array.forEach((item) => {
-    const newItem = document.createElement("li");
-    newItem.innerText = item;
-    newItem.dataset.index = array.indexOf(item);
-    newList.appendChild(newItem);
-  });
-  return newList;
+  const ulEl = document.createElement("ul");
+  // item - { text: "Item", isChecked: false, id: Date.now() }
+  for (const item of array) {
+    const liEl = listItem(item);
+    ulEl.appendChild(liEl);
+  }
+  return ulEl; // <ul> element
 };
 
 /*

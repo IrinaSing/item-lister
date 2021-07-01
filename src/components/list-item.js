@@ -5,14 +5,13 @@
 /**
  * renders a single item element
  *
- * @param {string} textContent - User input of item name.
+ * @param {object} item - object from array items (data.js)
  * @returns {Element} <li> item with text, checkbox and button.
  */
 
-// or text?
-export const listItem = (className) => {
-  const newItem = document.getElementById("item").value;
-
+export const listItem = (item) => {
+  const newItem = item; // { text: "Item", isChecked: false, id: Date.now() }
+  // const text = item[Object.keys(item)[0]]; // get item name from object
   // create new li element
   const li = document.createElement("li");
   // add class
@@ -27,17 +26,17 @@ export const listItem = (className) => {
   checkbox.className = "checkbox";
   checkbox.setAttribute("type", "checkbox");
 
-  // create label element + class
-  const label = document.createElement("label");
-  label.className = "form-check-label";
+  // create div element + class
+  const div = document.createElement("div");
+  div.className = "form-check-div";
 
   // add text node with input value
-  label.appendChild(document.createTextNode(newItem));
+  div.appendChild(document.createTextNode(newItem.text));
 
   // append input to div
   itemDiv.appendChild(checkbox);
-  // append label to div
-  itemDiv.appendChild(label);
+  // append div to div
+  itemDiv.appendChild(div);
 
   // create delete button element + class + text node
   const deleteBtn = document.createElement("button");
@@ -52,6 +51,3 @@ export const listItem = (className) => {
 
   return li;
 };
-
-// append li to list
-// itemList.appendChild(li);
