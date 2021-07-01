@@ -17,7 +17,6 @@ export const addItem = (e) => {
 
   // read the user input and update state
   const itemInput = document.getElementById("item").value;
-
   const itemToData = { text: itemInput, isChecked: false, id: Date.now() };
   state.items.push(itemToData);
 
