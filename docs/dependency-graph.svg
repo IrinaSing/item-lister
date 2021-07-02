@@ -16,8 +16,8 @@
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_src/components</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M308.49,-38C308.49,-38 423.47,-38 423.47,-38 429.47,-38 435.47,-44 435.47,-50 435.47,-50 435.47,-79 435.47,-79 435.47,-85 429.47,-91 423.47,-91 423.47,-91 308.49,-91 308.49,-91 302.49,-91 296.49,-85 296.49,-79 296.49,-79 296.49,-50 296.49,-50 296.49,-44 302.49,-38 308.49,-38"/>
-<text text-anchor="middle" x="365.98" y="-78.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">components</text>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M308.49,-20C308.49,-20 423.47,-20 423.47,-20 429.47,-20 435.47,-26 435.47,-32 435.47,-32 435.47,-61 435.47,-61 435.47,-67 429.47,-73 423.47,-73 423.47,-73 308.49,-73 308.49,-73 302.49,-73 296.49,-67 296.49,-61 296.49,-61 296.49,-32 296.49,-32 296.49,-26 302.49,-20 308.49,-20"/>
+<text text-anchor="middle" x="365.98" y="-60.9" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">components</text>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_src/handlers</title>
@@ -47,8 +47,8 @@
 <g id="node2" class="node">
 <title>src/components/list&#45;item.js</title>
 <g id="a_node2"><a xlink:href="../src/components/list-item.js" xlink:title="list&#45;item.js">
-<path fill="#ffffcc" stroke="black" d="M421.27,-64.3C421.27,-64.3 377.69,-64.3 377.69,-64.3 374.59,-64.3 371.49,-61.2 371.49,-58.1 371.49,-58.1 371.49,-51.9 371.49,-51.9 371.49,-48.8 374.59,-45.7 377.69,-45.7 377.69,-45.7 421.27,-45.7 421.27,-45.7 424.37,-45.7 427.47,-48.8 427.47,-51.9 427.47,-51.9 427.47,-58.1 427.47,-58.1 427.47,-61.2 424.37,-64.3 421.27,-64.3"/>
-<text text-anchor="middle" x="399.48" y="-52.3" font-family="Helvetica,sans-Serif" font-size="9.00">list&#45;item.js</text>
+<path fill="#ffffcc" stroke="black" d="M421.27,-46.3C421.27,-46.3 377.69,-46.3 377.69,-46.3 374.59,-46.3 371.49,-43.2 371.49,-40.1 371.49,-40.1 371.49,-33.9 371.49,-33.9 371.49,-30.8 374.59,-27.7 377.69,-27.7 377.69,-27.7 421.27,-27.7 421.27,-27.7 424.37,-27.7 427.47,-30.8 427.47,-33.9 427.47,-33.9 427.47,-40.1 427.47,-40.1 427.47,-43.2 424.37,-46.3 421.27,-46.3"/>
+<text text-anchor="middle" x="399.48" y="-34.3" font-family="Helvetica,sans-Serif" font-size="9.00">list&#45;item.js</text>
 </a>
 </g>
 </g>
@@ -56,23 +56,23 @@
 <g id="node3" class="node">
 <title>src/components/list.js</title>
 <g id="a_node3"><a xlink:href="../src/components/list.js" xlink:title="list.js">
-<path fill="#ffffcc" stroke="black" d="M352.29,-64.3C352.29,-64.3 310.69,-64.3 310.69,-64.3 307.59,-64.3 304.49,-61.2 304.49,-58.1 304.49,-58.1 304.49,-51.9 304.49,-51.9 304.49,-48.8 307.59,-45.7 310.69,-45.7 310.69,-45.7 352.29,-45.7 352.29,-45.7 355.39,-45.7 358.49,-48.8 358.49,-51.9 358.49,-51.9 358.49,-58.1 358.49,-58.1 358.49,-61.2 355.39,-64.3 352.29,-64.3"/>
-<text text-anchor="middle" x="331.49" y="-52.3" font-family="Helvetica,sans-Serif" font-size="9.00">list.js</text>
+<path fill="#ffffcc" stroke="black" d="M352.29,-46.3C352.29,-46.3 310.69,-46.3 310.69,-46.3 307.59,-46.3 304.49,-43.2 304.49,-40.1 304.49,-40.1 304.49,-33.9 304.49,-33.9 304.49,-30.8 307.59,-27.7 310.69,-27.7 310.69,-27.7 352.29,-27.7 352.29,-27.7 355.39,-27.7 358.49,-30.8 358.49,-33.9 358.49,-33.9 358.49,-40.1 358.49,-40.1 358.49,-43.2 355.39,-46.3 352.29,-46.3"/>
+<text text-anchor="middle" x="331.49" y="-34.3" font-family="Helvetica,sans-Serif" font-size="9.00">list.js</text>
 </a>
 </g>
 </g>
 <!-- src/components/list.js&#45;&gt;src/components/list&#45;item.js -->
 <g id="edge1" class="edge">
 <title>src/components/list.js&#45;&gt;src/components/list&#45;item.js</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M358.57,-55C360.66,-55 362.79,-55 364.92,-55"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="365.29,-57.1 371.29,-55 365.29,-52.9 365.29,-57.1"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M358.57,-37C360.66,-37 362.79,-37 364.92,-37"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="365.29,-39.1 371.29,-37 365.29,-34.9 365.29,-39.1"/>
 </g>
 <!-- src/data.js -->
 <g id="node4" class="node">
 <title>src/data.js</title>
 <g id="a_node4"><a xlink:href="../src/data.js" xlink:title="data.js">
-<path fill="#ffffcc" stroke="black" d="M352.29,-117.3C352.29,-117.3 310.69,-117.3 310.69,-117.3 307.59,-117.3 304.49,-114.2 304.49,-111.1 304.49,-111.1 304.49,-104.9 304.49,-104.9 304.49,-101.8 307.59,-98.7 310.69,-98.7 310.69,-98.7 352.29,-98.7 352.29,-98.7 355.39,-98.7 358.49,-101.8 358.49,-104.9 358.49,-104.9 358.49,-111.1 358.49,-111.1 358.49,-114.2 355.39,-117.3 352.29,-117.3"/>
-<text text-anchor="middle" x="331.49" y="-105.3" font-family="Helvetica,sans-Serif" font-size="9.00">data.js</text>
+<path fill="#ffffcc" stroke="black" d="M352.29,-101.3C352.29,-101.3 310.69,-101.3 310.69,-101.3 307.59,-101.3 304.49,-98.2 304.49,-95.1 304.49,-95.1 304.49,-88.9 304.49,-88.9 304.49,-85.8 307.59,-82.7 310.69,-82.7 310.69,-82.7 352.29,-82.7 352.29,-82.7 355.39,-82.7 358.49,-85.8 358.49,-88.9 358.49,-88.9 358.49,-95.1 358.49,-95.1 358.49,-98.2 355.39,-101.3 352.29,-101.3"/>
+<text text-anchor="middle" x="331.49" y="-89.3" font-family="Helvetica,sans-Serif" font-size="9.00">data.js</text>
 </a>
 </g>
 </g>
@@ -88,14 +88,14 @@
 <!-- src/handlers/add&#45;item.js&#45;&gt;src/components/list.js -->
 <g id="edge2" class="edge">
 <title>src/handlers/add&#45;item.js&#45;&gt;src/components/list.js</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M273.04,-87.4C278.48,-85.21 283.89,-82.45 288.49,-79 293.32,-75.37 291.69,-71.68 296.49,-68 297.24,-67.42 298.02,-66.87 298.82,-66.34"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="300.23,-67.95 304.39,-63.15 298.14,-64.31 300.23,-67.95"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M273.22,-88.99C278.9,-86.67 284.36,-83.46 288.49,-79 297.57,-69.19 287.5,-59.9 296.49,-50 297.31,-49.09 298.21,-48.24 299.17,-47.45"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="300.53,-49.07 304.33,-43.97 298.18,-45.58 300.53,-49.07"/>
 </g>
 <!-- src/handlers/add&#45;item.js&#45;&gt;src/data.js -->
 <g id="edge3" class="edge">
 <title>src/handlers/add&#45;item.js&#45;&gt;src/data.js</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M273.27,-99.4C281.32,-100.61 290.09,-101.93 298.29,-103.16"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="298.18,-105.27 304.42,-104.08 298.8,-101.11 298.18,-105.27"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M273.27,-93.98C281.32,-93.71 290.09,-93.4 298.29,-93.12"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="298.5,-95.21 304.42,-92.9 298.36,-91.01 298.5,-95.21"/>
 </g>
 <!-- src/handlers/filter&#45;items.js -->
 <g id="node6" class="node">
@@ -110,10 +110,22 @@
 <g id="node7" class="node">
 <title>src/handlers/remove&#45;item.js</title>
 <g id="a_node7"><a xlink:href="../src/handlers/remove-item.js" xlink:title="remove&#45;item.js">
-<path fill="#ccffcc" stroke="black" d="M274.28,-42.3C274.28,-42.3 211.7,-42.3 211.7,-42.3 208.6,-42.3 205.5,-39.2 205.5,-36.1 205.5,-36.1 205.5,-29.9 205.5,-29.9 205.5,-26.8 208.6,-23.7 211.7,-23.7 211.7,-23.7 274.28,-23.7 274.28,-23.7 277.38,-23.7 280.48,-26.8 280.48,-29.9 280.48,-29.9 280.48,-36.1 280.48,-36.1 280.48,-39.2 277.38,-42.3 274.28,-42.3"/>
+<path fill="#ffffcc" stroke="black" d="M274.28,-42.3C274.28,-42.3 211.7,-42.3 211.7,-42.3 208.6,-42.3 205.5,-39.2 205.5,-36.1 205.5,-36.1 205.5,-29.9 205.5,-29.9 205.5,-26.8 208.6,-23.7 211.7,-23.7 211.7,-23.7 274.28,-23.7 274.28,-23.7 277.38,-23.7 280.48,-26.8 280.48,-29.9 280.48,-29.9 280.48,-36.1 280.48,-36.1 280.48,-39.2 277.38,-42.3 274.28,-42.3"/>
 <text text-anchor="middle" x="242.99" y="-30.3" font-family="Helvetica,sans-Serif" font-size="9.00">remove&#45;item.js</text>
 </a>
 </g>
+</g>
+<!-- src/handlers/remove&#45;item.js&#45;&gt;src/components/list.js -->
+<g id="edge4" class="edge">
+<title>src/handlers/remove&#45;item.js&#45;&gt;src/components/list.js</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M280.67,-34.7C286.49,-34.97 292.47,-35.24 298.17,-35.51"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="298.15,-37.61 304.24,-35.79 298.34,-33.41 298.15,-37.61"/>
+</g>
+<!-- src/handlers/remove&#45;item.js&#45;&gt;src/data.js -->
+<g id="edge5" class="edge">
+<title>src/handlers/remove&#45;item.js&#45;&gt;src/data.js</title>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M279.89,-42.34C283.06,-44.18 286.01,-46.37 288.49,-49 297.08,-58.1 288.33,-66.5 296.49,-76 297.32,-76.97 298.21,-77.88 299.17,-78.74"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="298.28,-80.69 304.34,-82.62 300.8,-77.33 298.28,-80.69"/>
 </g>
 <!-- src/init/index.js -->
 <g id="node8" class="node">
@@ -134,7 +146,7 @@
 </g>
 </g>
 <!-- src/init/index.js&#45;&gt;src/listeners/add&#45;item.js -->
-<g id="edge4" class="edge">
+<g id="edge6" class="edge">
 <title>src/init/index.js&#45;&gt;src/listeners/add&#45;item.js</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M80.4,-91.47C88.95,-91.96 98.61,-92.5 107.72,-93.01"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="107.82,-95.12 113.93,-93.36 108.06,-90.93 107.82,-95.12"/>
@@ -149,7 +161,7 @@
 </g>
 </g>
 <!-- src/init/index.js&#45;&gt;src/listeners/filter&#45;items.js -->
-<g id="edge5" class="edge">
+<g id="edge7" class="edge">
 <title>src/init/index.js&#45;&gt;src/listeners/filter&#45;items.js</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M80.4,-82.34C88.06,-80.1 96.59,-77.59 104.84,-75.18"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="105.9,-77.06 111.07,-73.35 104.72,-73.03 105.9,-77.06"/>
@@ -164,13 +176,13 @@
 </g>
 </g>
 <!-- src/init/index.js&#45;&gt;src/listeners/remove&#45;item.js -->
-<g id="edge6" class="edge">
+<g id="edge8" class="edge">
 <title>src/init/index.js&#45;&gt;src/listeners/remove&#45;item.js</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M80.27,-84.13C84.08,-82.35 87.67,-80.03 90.5,-77 99.34,-67.55 89.66,-58.45 98.5,-49 99.58,-47.85 100.75,-46.77 101.99,-45.78"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="103.29,-47.43 107.07,-42.32 100.93,-43.96 103.29,-47.43"/>
 </g>
 <!-- src/listeners/add&#45;item.js&#45;&gt;src/handlers/add&#45;item.js -->
-<g id="edge7" class="edge">
+<g id="edge9" class="edge">
 <title>src/listeners/add&#45;item.js&#45;&gt;src/handlers/add&#45;item.js</title>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M174.1,-95C184.36,-95 196.01,-95 206.73,-95"/>
 <polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="206.91,-97.1 212.91,-95 206.91,-92.9 206.91,-97.1"/>
