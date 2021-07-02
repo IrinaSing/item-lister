@@ -21,7 +21,6 @@ export const removeItem = (e) => {
       const indexOfObject = todoArray.findIndex((x) => x.id === idTarget);
       todoArray.splice(indexOfObject, 1);
     }
-    console.log(todoArray);
   }
 
   // clear inner html of the list container
@@ -29,7 +28,6 @@ export const removeItem = (e) => {
   listContainer.innerHTML = "";
   // render a new list of list components
   const newListEl = list(state.items);
-  // console.log(state.items);
   // append component to list component
   listContainer.appendChild(newListEl);
 };
