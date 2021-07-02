@@ -16,6 +16,7 @@ export const listItem = (item) => {
   const li = document.createElement("li");
   // add class
   li.className = "list-group-item";
+  li.setAttribute("data-key", newItem.id);
 
   // create div element and it's class
   const itemDiv = document.createElement("div");
@@ -35,8 +36,10 @@ export const listItem = (item) => {
   itemDiv.appendChild(name);
   // textDiv.appendChild(document.createTextNode(newItem.text));
 
+  const deleteButton = deleteBtn("btn btn-danger btn-sm float-right delete");
+  console.log(deleteButton);
   // append delete button to div
-  itemDiv.appendChild(deleteBtn("btn btn-danger btn-sm float-right delete"));
+  itemDiv.appendChild(deleteButton);
 
   // append div to li
   li.appendChild(itemDiv);
