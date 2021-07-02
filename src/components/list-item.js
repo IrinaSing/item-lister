@@ -37,7 +37,7 @@ export const listItem = (item) => {
   // textDiv.appendChild(document.createTextNode(newItem.text));
 
   const deleteButton = deleteBtn("btn btn-danger btn-sm float-right delete");
-  console.log(deleteButton);
+  // console.log(deleteButton);
   // append delete button to div
   itemDiv.appendChild(deleteButton);
 
