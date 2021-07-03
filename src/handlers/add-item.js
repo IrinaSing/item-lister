@@ -23,4 +23,8 @@ export const addItem = (e) => {
 
   // render new list from updated data
   renderList(todoArray);
+
+  // clear the user input
+  const inputForm = document.getElementById("addForm");
+  inputForm.reset();
 };

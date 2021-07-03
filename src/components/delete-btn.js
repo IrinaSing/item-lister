@@ -1,5 +1,11 @@
-/* eslint-disable import/no-cycle */
 import { removeItem } from "../handlers/remove-item.js";
+
+/**
+ * render button element
+ *
+ * @param {string} classList - the class list to create button with exact appearance
+ * @returns {HTMLButtonElement}
+ */
 
 // create delete button element + class + text node
 
