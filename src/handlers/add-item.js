@@ -17,10 +17,16 @@ export const addItem = (e) => {
 
   // read the user input and update state
   const itemInput = document.getElementById("item").value;
-  const itemToData = { text: itemInput, isChecked: false, id: Date.now() };
-  const todoArray = state.items;
-  todoArray.push(itemToData);
+  if (itemInput !== "") {
+    const itemToData = { text: itemInput, isChecked: false, id: Date.now() };
+    const todoArray = state.items;
+    todoArray.push(itemToData);
 
-  // render new list from updated data
-  renderList(todoArray);
+    // render new list from updated data
+    renderList(todoArray);
+  }
+
+  // clear the user input
+  const inputForm = document.getElementById("addForm");
+  inputForm.reset();
 };
