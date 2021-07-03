@@ -13,11 +13,13 @@
 <!-- BEGIN TOC -->
 
 - components
+  - [delete-btn.js](#srccomponentsdelete-btnjs)
   - [list-item.js](#srccomponentslist-itemjs)
   - [list.js](#srccomponentslistjs)
 - handlers
   - [add-item.js](#srchandlersadd-itemjs)
   - [filter-items.js](#srchandlersfilter-itemsjs)
+  - [re-render-list.js](#srchandlersre-render-listjs)
   - [remove-item.js](#srchandlersremove-itemjs)
 - init
   - [index.js](#srcinitindexjs)
@@ -38,6 +40,10 @@
 ---
 
 # /components
+
+<details><summary><a href="../src/components/delete-btn.js" id="srccomponentsdelete-btnjs">src/components/delete-btn.js</a></summary>
+
+</details>
 
 <details><summary><a href="../src/components/list-item.js" id="srccomponentslist-itemjs">src/components/list-item.js</a></summary>
 
@@ -61,7 +67,7 @@ renders a single item element
 
 ## list ⇒ <code>Element</code>
 
-renders a list with all added elements
+returns a list element
 
 **Returns**: <code>Element</code> - <ul> new list
 
@@ -84,6 +90,10 @@ renders a list with all added elements
 </details>
 
 <details><summary><a href="../src/handlers/filter-items.js" id="srchandlersfilter-itemsjs">src/handlers/filter-items.js</a></summary>
+
+</details>
+
+<details><summary><a href="../src/handlers/re-render-list.js" id="srchandlersre-render-listjs">src/handlers/re-render-list.js</a></summary>
 
 </details>
 
