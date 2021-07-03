@@ -1,5 +1,5 @@
-import { list } from "../components/list.js";
 import { state } from "../data.js";
+import { renderList } from "./re-render-list.js";
 
 // const itemList = document.getElementsByTagName("ul"); // it returns html collection
 
@@ -22,12 +22,5 @@ export const removeItem = (e) => {
       todoArray.splice(indexOfObject, 1);
     }
   }
-
-  // clear inner html of the list container
-  const listContainer = document.getElementById("list-container");
-  listContainer.innerHTML = "";
-  // render a new list of list components
-  const newListEl = list(state.items);
-  // append component to list component
-  listContainer.appendChild(newListEl);
+  renderList(todoArray);
 };

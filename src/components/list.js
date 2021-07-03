@@ -1,7 +1,7 @@
 import { listItem } from "./list-item.js";
 
 /**
- * renders a list with all added elements
+ * returns a list element
  *
  * @param {Array} array - text of all the items
  * @returns {Element} <ul> new list
