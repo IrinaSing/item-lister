@@ -43,6 +43,16 @@
 
 <details><summary><a href="../src/components/delete-btn.js" id="srccomponentsdelete-btnjs">src/components/delete-btn.js</a></summary>
 
+<a name="deleteBtn"></a>
+
+## deleteBtn ⇒ <code>HTMLButtonElement</code>
+
+render button element
+
+| Param     | Type                | Description                                           |
+| --------- | ------------------- | ----------------------------------------------------- |
+| classList | <code>string</code> | the class list to create button with exact appearance |
+
 </details>
 
 <details><summary><a href="../src/components/list-item.js" id="srccomponentslist-itemjs">src/components/list-item.js</a></summary>
