@@ -6,6 +6,8 @@ import { renderList } from "./re-render-list.js";
 export const removeItem = (e) => {
   const todoArray = state.items; // list array in state
   const div = e.target.parentElement;
+
+  console.log(div);
   const li = div.parentElement;
 
   const { key } = li.dataset; // id of DOM object strings

@@ -1,4 +1,4 @@
-import { removeItem } from "../handlers/remove-item.js";
+// import { removeItem } from "../handlers/remove-item.js";
 
 /**
  * render button element
@@ -13,7 +13,7 @@ export const deleteBtn = (classList) => {
   const dltBtn = document.createElement("button");
   dltBtn.classList = classList;
   dltBtn.appendChild(document.createTextNode("X"));
-  dltBtn.addEventListener("click", removeItem);
+  // dltBtn.addEventListener("click", removeItem);
 
   // console.log(dltBtn); // returns all of buttons
   return dltBtn;
