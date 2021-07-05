@@ -10,7 +10,7 @@ export const filterItems = (e) => {
   // convert to array
   Array.from(items).forEach((item) => {
     const itemName = item.firstChild.textContent;
-    if (itemName.toLocaleLowerCase().indexOf(text) != -1) {
+    if (itemName.toLocaleLowerCase().indexOf(text) !== -1) {
       item.style.display = "block";
     } else {
       item.style.display = "none";
