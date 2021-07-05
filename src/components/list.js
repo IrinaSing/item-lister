@@ -10,7 +10,6 @@ import { listItem } from "./list-item.js";
 export const list = (array) => {
   const ulEl = document.createElement("ul");
   ulEl.id = "item-list";
-  console.log(ulEl.id);
   // item - { text: "Item", isChecked: false, id: Date.now() }
   for (const item of array) {
     const liEl = listItem(item);
