@@ -1,8 +1,6 @@
 import { state } from "../data.js";
 import { renderList } from "./re-render-list.js";
 
-// const itemList = document.getElementsByTagName("ul"); // it returns html collection
-
 export const removeItem = (e) => {
   const todoArray = state.items; // list array in state
   const div = e.target.parentElement;
