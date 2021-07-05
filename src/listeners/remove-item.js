@@ -1,7 +1,5 @@
-/*
 import { removeItem } from "../handlers/remove-item.js";
 
-const itemList = document.getElementById("items");
+const listContainer = document.getElementById("list-container");
 // delete event
-itemList.addEventListener("click", removeItem);
-*/
+listContainer.addEventListener("click", removeItem);

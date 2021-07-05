@@ -1,7 +1,7 @@
 import { listItem } from "./list-item.js";
 
 /**
- * renders a list with all added elements
+ * returns a list element
  *
  * @param {Array} array - text of all the items
  * @returns {Element} <ul> new list
@@ -9,6 +9,7 @@ import { listItem } from "./list-item.js";
 
 export const list = (array) => {
   const ulEl = document.createElement("ul");
+  ulEl.id = "item-list";
   // item - { text: "Item", isChecked: false, id: Date.now() }
   for (const item of array) {
     const liEl = listItem(item);

@@ -1,7 +1,7 @@
 // make button delete element
 // make text + checkbox element
 // make li element
-
+import { deleteBtn } from "./delete-btn.js";
 /**
  * renders a single item element
  *
@@ -16,6 +16,7 @@ export const listItem = (item) => {
   const li = document.createElement("li");
   // add class
   li.className = "list-group-item";
+  li.setAttribute("data-key", newItem.id);
 
   // create div element and it's class
   const itemDiv = document.createElement("div");
@@ -35,16 +36,10 @@ export const listItem = (item) => {
   itemDiv.appendChild(name);
   // textDiv.appendChild(document.createTextNode(newItem.text));
 
-  // append div to div
-  // itemDiv.appendChild(textDiv);
-
-  // create delete button element + class + text node
-  const deleteBtn = document.createElement("button");
-  deleteBtn.className = "btn btn-danger btn-sm float-right delete";
-  deleteBtn.appendChild(document.createTextNode("X"));
-
-  // append button to div
-  itemDiv.appendChild(deleteBtn);
+  const deleteButton = deleteBtn("btn btn-danger btn-sm float-right delete");
+  // console.log(deleteButton);
+  // append delete button to div
+  itemDiv.appendChild(deleteButton);
 
   // append div to li
   li.appendChild(itemDiv);

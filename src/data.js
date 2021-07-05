@@ -4,6 +4,5 @@
 export const state = {
   items: [],
 };
-console.log("initial state:", { ...state });
 
 // items: [{ text: "Item", isChecked: false, id: Date.now() }],
